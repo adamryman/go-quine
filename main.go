@@ -1,5 +1,5 @@
 package main
-func main(){print(p,string(96),p,string(96))}
+func main(){b:=string(96);print(p,b,p,b)}
 var p string=`package main
-func main(){print(p,string(96),p,string(96))}
+func main(){b:=string(96);print(p,b,p,b)}
 var p string=`
