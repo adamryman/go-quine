@@ -1,6 +1,6 @@
 # go-quine
 
-I wrote a quine in go! It is `139` characters long.
+I wrote a quine in go! It is `138` characters long.
 
 Try it out!
 ``` 
