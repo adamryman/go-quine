@@ -1,6 +1,6 @@
 # go-quine
 
-I wrote a quine in go! It is `192` characters long.
+I wrote a quine in go! It is `146` characters long.
 
 Try it out!
 ``` 
@@ -14,19 +14,13 @@ Here is the formatted code:
 package main
 
 func main() {
-	print(p)
-	print(string(96))
-	print(p)
-	print(string(96))
+	print(p, string(96), p, string(96))
 }
 
 var p string = `package main
 
 func main() {
-	print(p)
-	print(string(96))
-	print(p)
-	print(string(96))
+	print(p, string(96), p, string(96))
 }
 
 var p string = `
