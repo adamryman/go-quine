@@ -1,5 +1,5 @@
 package main
 func main(){b:=string(96);print(p,b,p,b)}
-var p string=`package main
+const p=`package main
 func main(){b:=string(96);print(p,b,p,b)}
-var p string=`
+const p=`
