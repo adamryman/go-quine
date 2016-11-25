@@ -5,7 +5,7 @@ I wrote a quine in go! It is `129` bytes long.
 Try it out!
 ``` 
 go get github.com/adamryman/go-quine
-cd $GOPATH/github.com/adamryman/go-quine
+cd $GOPATH/src/github.com/adamryman/go-quine
 go run main.go
 ```
 
